@@ -15,7 +15,8 @@
 //   Bonus: Are there any other modules that could be made ? Do any modules have more than one possible responsibility ? Perhaps something that is a general utility function.
 
 
-import onClick from "./eventListener"
-// import saveData from "./postData"
+import onClick from "./ContactForm"
+import API from "./ContactCollection"
 
 onClick()
+API.getFromList()
