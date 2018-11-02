@@ -3,8 +3,8 @@
 export default function elementFactory (el, content, clazz, id, ...children){
   let element = document.createElement(el)
   element.innerHTML = content || null
-  element.hasAttribute("class", clazz)
-  element.hasAttribute("id", id)
+  element.setAttribute("class", clazz)
+  element.setAttribute("id", id)
   children.forEach(child => {
     element.appendChild(child)
   })

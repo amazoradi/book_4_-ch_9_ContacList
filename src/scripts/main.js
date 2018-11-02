@@ -16,6 +16,7 @@
 
 
 import onClick from "./eventListener"
-// import saveData from "./postData"
+import API from "./APIdata"
 
 onClick()
+API.getFromList()
