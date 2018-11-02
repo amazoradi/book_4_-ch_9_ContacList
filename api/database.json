@@ -1,16 +1,16 @@
 {
-  "contact list": [
+  "contact-list": [
     {
       "name": "Homer Simpson",
       "phone_number": "111-222-3344",
       "address": "742 Evergreen Terrace, Springfield USA",
       "id": 1
-  },
-  {
-    "name": "Jerry Seinfeld",
-    "phone_number": "000-111-9999",
-    "address": "129 West 81st Street, Apartment 5A, New York, New York",
-    "id": 2
-  }
-]
+    },
+    {
+      "name": "Jerry Seinfeld",
+      "phone_number": "000-111-9999",
+      "address": "129 West 81st Street, Apartment 5A, New York, New York",
+      "id": 2
+    }
+  ]
 }
