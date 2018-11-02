@@ -1,6 +1,6 @@
 // function that takes our get'ed and post'ed data already in our html elements form element creator and displays in the dom
 import elementFactory from "./elementCreator"
-import API from "./APIdata"
+import API from "./ContactCollection"
 
 
 const domCreation = {

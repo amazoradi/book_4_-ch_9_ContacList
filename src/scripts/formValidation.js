@@ -1,5 +1,5 @@
 // validates the input recovered from our event listener
-import API from "./APIdata"
+import API from "./ContactCollection"
 
 export default function validateThis (newContact) {
   if (document.getElementById("contact-name").value === "") {
