@@ -11,12 +11,12 @@ const API = {
       },
       body: JSON.stringify(newContact)
     }).then(data => data.json())
-    .then(contacts => domInjector(contacts))
+    .then(contacts => domInjector.userCreate(contacts))
   },
   getFromList() {
     return fetch("http://localhost:8088/contact-list")
       .then(response => response.json())
-      //.then(contancts => domInjector(contancts))
+      .then(contacts => domInjector.databaseCreate(contacts))
   }
 }
 

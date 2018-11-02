@@ -3,7 +3,8 @@ import elementFactory from "./elementCreator"
 import API from "./APIdata"
 
 
-export default function domCreation(info) {
+const domCreation = {
+   userCreate (info) {
     let entryTitle = elementFactory("h4", "Contact")
     let entryName = elementFactory("p", `Name: ${info.name}`)
     let entryNum = elementFactory("p", `Phone Number: ${info.phone_number}`)
@@ -13,5 +14,13 @@ export default function domCreation(info) {
     fragment.appendChild(contactDiv)
     let contactList = document.getElementById("contact-list")
     contactList.appendChild(fragment)
- 
+},
+databaseCreate (data){
+  data.forEach(contact =>{
+    domCreation.userCreate(contact)
+  })
 }
+}
+
+
+export default domCreation
