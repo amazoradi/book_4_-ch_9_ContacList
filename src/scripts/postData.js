@@ -1,1 +1,0 @@
-// fetch post our data form the event lsitener that is  validated to the data base
